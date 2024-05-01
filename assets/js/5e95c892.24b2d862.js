@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkotlin_springboot_tool_doc=self.webpackChunkkotlin_springboot_tool_doc||[]).push([[647],{7121:(o,e,s)=>{s.r(e),s.d(e,{default:()=>a});s(6540);var r=s(4164),t=s(1003),n=s(7559),c=s(2831),l=s(781),u=s(4848);function a(o){return(0,u.jsx)(t.e3,{className:(0,r.A)(n.G.wrapper.docsPages),children:(0,u.jsx)(l.A,{children:(0,c.v)(o.route.routes)})})}}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkotlin_springboot_tool_doc=self.webpackChunkkotlin_springboot_tool_doc||[]).push([[234],{4061:o=>{o.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
