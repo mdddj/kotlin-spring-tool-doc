@@ -4,14 +4,14 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'KotlinSpringbootTool',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: 'kotlin,springboot,antd 代码生成工具',
+  favicon: 'img/pluginIcon.svg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/kotlin-spring-tool-doc/',
 
 // GitHub 页面部署配置。
 // 如果您不使用 GitHub 页面，则不需要这些。
@@ -55,13 +55,13 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
+    // 替换为您项目的社交卡
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'KotlinSpringbootTool',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/pluginIcon.svg',
       },
       items: [
         {
@@ -70,9 +70,9 @@ const config: Config = {
           position: 'left',
           label: '教程',
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/docs/wechat', label: '打赏', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/mdddj/dd_kotlin_util',
           label: 'GitHub',
           position: 'right',
         },
@@ -85,7 +85,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: '教程',
               to: '/docs/intro',
             },
           ],
